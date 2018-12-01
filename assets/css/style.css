@@ -1,0 +1,14 @@
+
+button {
+    height:200px;
+    width: 200px;
+}
+
+body {
+    background-color: rgb(161, 222, 224);
+    color: rgb(35, 30, 43);
+}
+
+h4 {
+    font-size: 24;
+}

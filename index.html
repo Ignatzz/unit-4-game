@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Crystal Counter Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+  <body>
+<br>
+    <h1 class="text-center">Crystal Collector!</h1>
+    <br> 
+    <h5 class="text-center">
+      You will be given a random number at the start of the game. 
+      <br> <br>
+      There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+      <br> <br>
+      You win the game by matching your score to the random number - if your score exceeds that random number, however, you lose!
+      <br> <br>
+      The value of each crystal is hidden from you until you click on it. 
+
+      <br> <br>
+
+      Whenever a new game starts, a new random number will be chosen, and the crystal wil have new random values as well. 
+    
+      <br> <br>
+      </h5>
+
+  
+
+    <!-- random # display -->
+    <div class="text-center" id="randomNumber"></div>
+
+     <!-- player score display, wins, losses -->
+     <div class="text-center" id="wins"></div>
+
+     <div class="text-center" id="losses"></div>
+
+       <!-- buttons -->
+       <div class="text-center">
+    <button id="button1"> <img src= "assets/images/brown.jpg" > </button>
+    <button id="button2"> <img src= "assets/images/green.jpg" ></button>
+    <button id="button3"> <img src= "assets/images/purple.jpg" ></button>
+    <button id="button4"> <img src= "assets/images/red.jpg" ></button>
+      </div>
+
+     <!-- player score display -->
+
+     <div class="text-center" id="playerScore"></div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
